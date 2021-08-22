@@ -285,6 +285,7 @@ footer{
     }
     .header__button--right button{
         width: 100%;
+        border-radius: 0;
     }
     .col-m{
         width: 100% !important;
@@ -311,4 +312,4 @@ footer{
     footer{
         padding: 1px 50px;
     }
-  }
+}
