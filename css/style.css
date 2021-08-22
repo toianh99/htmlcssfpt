@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #ff817e;
+    --gray-dark: #263a41;
+    --gray-light: #888;
+    --white: white;
+    --black: black;
+    --bg-block: #fff9f8;
+    --primary-font: "Avertafont";
+    --secondary-font: "Avertafont";
+    --yellow:#ffcb08;
+    --blue:#1e90ff;
+    --blue-pad:#b3d6f7;
+    --yellow-pad:#fff376;
+    --yello-bt:#ffd200;
+    --pink:#ee3897;
+    --container:1920px;
+    --wrapper:1170px;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--gray-dark);
+    background-color: var(--white);
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+  .wrapper {
+    max-width: var(--wrapper);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a:hover,button:hover{
+      cursor: pointer;
+  }
+  button{
+      outline: none;
+  }
+  .row{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  }
+  .col-w-1{
+      width: 8.333333333333333%;
+      display: flex;
+  }
+  .col-w-2{
+      width: 16/66666666666667%;
+  }
+  .col-w-3{
+      width: 25%;
+  }
+  .col-w-4{
+      width: 33.33333333333333%;
+  }
+  .col-w-5{
+      width: 41.6666666666667%;
+  }
+  .col-w-6{
+      width: 50%;
+  }
+  .col-w-7{
+      width: 58.333333333333%;
+  }
+  .col-w-8{
+      width: 66.666666666666%;
+  }
+  .col-w-9{
+      width: 75%;
+  }
+  .col-w-10{
+      width: 83.33333333333%;
+  }
+  .col-w-11{
+      width: 91,66666666667%;
+  }
+  .text-green{
+      color: #4daf50;
+  }
+  .text-red{
+      color: red;
+  }
+  .text-black{
+      color: black;
+  }
+  .text-blue{
+      color: #2b96f3;
+  }
+
